@@ -1,0 +1,473 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>jsMind</title>
+    <link type="text/css" rel="stylesheet" href="../style/jsmind.css" />
+    <style type="text/css">
+        #jsmind_container{
+            width:1200px;
+            height:1200px;
+            border:solid 1px #ccc;
+            /*background:#f4f4f4;*/
+            background:#f4f4f4;
+        }
+        img {
+            width: 20px
+        }
+    </style>
+</head>
+<body>
+<div id="jsmind_container"></div>
+<script type="text/javascript" src="../js/jsmind.js"></script>
+<script type="text/javascript">
+    function load_jsmind(){
+        var mind = {
+   "meta":{
+      "name":"jsMind",
+      "author":"filip@vertex.com.mk",
+      "version":"0.1b"
+   },
+   "format":"node_tree",
+   "data":{
+      "id":"root",
+      "topic":"Blood Pressure",
+      "expanded":true,
+      "children":[
+         {
+            "id":"9bb373c9ef11c53a",
+            "topic":"Data",
+            "background-color": "#FFFF53",
+            "expanded":false,
+            "direction":"right",
+            "children":[
+               {
+                  "id":"9bb3996320d7821e",
+                  "topic":"<img src='icons/quantity.png'>Systolic <img src='icons/list.png'>",
+                  "expanded":true,
+                  "background-color": "transparent"
+               },
+               {
+                  "id":"9bb39a63d9d2aaa9",
+                  "topic":"<img src='icons/quantity.png'> Diastolic <img src='icons/list.png'>",
+                  "expanded":true,
+                  "background-color": "transparent"
+
+               },
+               {
+                  "id":"9bb39a7e54bb7a89",
+                  "topic":"<img src='icons/quantity.png'> Mean aretiral pressure <img src='icons/list.png'>",
+                  "expanded":true,
+                  "background-color": "transparent"
+               },
+               {
+                  "id":"9bb39a9a5ab1ce40",
+                  "topic":"<img src='icons/quantity.png'> Pulse pressure <img src='icons/list.png'>",
+                  "expanded":true,
+                  "background-color": "transparent"
+               },
+               {
+                  "id":"9bb39ab25d1908ad",
+                  "topic":"<img src='icons/string.png'> Comment <img src='icons/list.png'>",
+                  "expanded":true,
+                  "background-color": "transparent"
+               }
+            ]
+         },
+         {
+            "id":"9bb373fed57c9b15",
+            "topic":"State",
+            "expanded":false,
+            "direction":"left",
+            "background-color": "#9DAAFF",
+            "children":[
+               {
+                  "id":"9bb3b2dcdc3ff2d7",
+                  "topic":"<img src='icons/list.png'><img src='icons/string.png'>Position",
+                  "expanded":true,
+                  "background-color": "transparent",
+                  //"margin": "0 0 0 -25px"
+               },
+               {
+                  "id":"9bb3b350dd821dc8",
+                  "topic":"<img src='icons/list.png'><img src='icons/string.png'>Confounding factors",
+                  "expanded":true,
+                  "background-color": "transparent",
+                  //"margin": "0 0 0 -25px"
+
+               },
+               {
+                  "id":"9bb3b368597848d0",
+                  "topic":"<img src='icons/archetype.png'><img src='icons/string.png'>Exertion",
+                  "expanded":true,
+                  "background-color": "transparent",
+                  //"margin": "0 0 0 -25px"
+               },
+               {
+                  "id":"9bb3b37cdd23cebd",
+                  "topic":"<img src='icons/list.png'><img src='icons/string.png'>Sleep status",
+                  "expanded":true,
+                  "background-color": "transparent",
+                  //"margin": "0 0 0 -25px"
+               },
+               {
+                  "id":"9bb3b393743479fa",
+                  "topic":"<img src='icons/quantity.png'><img src='icons/string.png'>Tilt",
+                  "expanded":true,
+                  "background-color": "transparent",
+                  //"margin": "0 0 0 -25px"
+               }
+            ]
+         },
+         {
+            "id":"9bb37454dbe609e2",
+            "topic":"Protocol",
+            "expanded":false,
+            "direction":"right",
+            "background-color": "#FF717B",
+            "children":[
+               {
+                  "id":"9bb39c9d6b34fa92",
+                  "topic":"<img src='icons/quantity.png'>Cuff size<img src='icons/list.png'>",
+                  "expanded":true,
+                  "background-color": "transparent",
+                  "children": [{"id":"qxjk12kj2h3213", "topic": "roflmfao"}]
+               },
+               {
+                  "id":"9bb39caaee9159ca",
+                  "topic":"<img src='icons/cluster.png'>Location<img src='icons/list.png'>",
+                  "expanded":true,
+                  "background-color": "transparent",
+                  //"margin": "0 -50px 0 0",
+                  "children":[
+                     {
+                        "id":"9bb3a9375e75eb3f",
+                        "topic":"<img src='icons/item_tree.png'>Location of measurement",
+                        "expanded":true,
+                        "background-color": "transparent"
+                     },
+                     {
+                        "id":"9bb3a94ad6c70702",
+                        "topic":"<img src='icons/string.png'>X-Specific location<img src='icons/list.png'>",
+                        "expanded":true,
+                        "background-color": "transparent"
+                     }
+                  ]
+               },
+               {
+                  "id":"9bb39cb96f8d5247",
+                  "topic":"<img src='icons/archetype.png'>Structured measurement location<img src='icons/list.png'>",
+                  "expanded":true,
+                  "background-color": "transparent"
+               },
+               {
+                  "id":"9bb39cc966851172",
+                  "topic":"<img src='icons/string.png'>Method<img src='icons/list.png'>",
+                  "expanded":true,
+                  "background-color": "transparent"
+               },
+               {
+                  "id":"9bb39cd9e3bfa2da",
+                  "topic":"<img src='icons/string.png'>Mean aretrial pressure formula<img src='icons/list.png'>",
+                  "expanded":true,
+                  "background-color": "transparent"
+               },
+               {
+                  "id":"9bb39ce8e7d158aa",
+                  "topic":"<img src='icons/string.png'>Systolic pressure formula<img src='icons/list.png'>",
+                  "expanded":true,
+                  "background-color": "transparent"
+               },
+               {
+                  "id":"9bb39cf9e32740e1",
+                  "topic":"<img src='icons/string.png'>Diastolic pressure formula<img src='icons/list.png'>",
+                  "expanded":true,
+                  "background-color": "transparent"
+               },
+               {
+                  "id":"9bb39d0ae607d505",
+                  "topic":"<img src='icons/string.png'>Diastolic endpoint<img src='icons/list.png'>",
+                  "expanded":true,
+                  "background-color": "transparent"
+               },
+               {
+                  "id":"9bb39d1a6f154838",
+                  "topic":"<img src='icons/archetype.png'>Device<img src='icons/list.png'>",
+                  "expanded":true,
+                  "background-color": "transparent"
+               },
+               {
+                  "id":"9bb39d2c68e4da25",
+                  "topic":"<img src='icons/archetype.png'>Extension<img src='icons/list.png'>",
+                  "expanded":true,
+                  "background-color": "transparent"
+               }
+            ]
+         },
+         {
+            "id":"9bb37468503c96ab",
+            "topic":"Events",
+            "expanded":false,
+            "direction":"left",
+            "background-color": "#AAFE92",
+            "children":[
+               {
+                  "id":"9bb3b3fdd7af21df",
+                  "topic":"<img src='icons/list.png'><img src='icons/interval_event.png'>Any event",
+                  "expanded":true,
+                  "background-color":"transparent",
+                  //"margin": "0 0 0 -25px"
+               },
+               {
+                  "id":"9bb3b4095354ba5f",
+                  "topic":"<img src='icons/list.png'><img src='icons/interval_event.png'>24 hour average",
+                  "expanded":true,
+                  "background-color":"transparent",
+                  //"margin": "0 0 0 -25px"
+               }
+            ]
+         },
+         {
+            "id":"9bb3747dd714e4b9",
+            "topic":"Description",
+            "expanded":false,
+            "direction":"right",
+            "background-color": "#999999",
+            "foreground-color": "white",
+            "children":[
+               {
+                  "id":"9bb39ebe57d5f243",
+                  "topic":"Concept description",
+                  "expanded":true,
+                  "background-color": "transparent",
+                  "children":[
+                     {
+                        "id":"9bb3ac98c9ea42d4",
+                        "topic":"* Node_9bb3a *",
+                        "expanded":true,
+                        "background-color": "transparent"
+                     }
+                  ]
+               },
+               {
+                  "id":"9bb39ecd5320bde7",
+                  "topic":"Purpose",
+                  "expanded":true,
+                  "background-color": "transparent",
+                  "children":[
+                     {
+                        "id":"9bb3ad48cea3e219",
+                        "topic":"* Node_9bb3a *",
+                        "expanded":true,
+                        "background-color": "transparent"
+                     }
+                  ]
+               },
+               {
+                  "id":"9bb39ede5570e333",
+                  "topic":"Use",
+                  "expanded":true,
+                  "background-color": "transparent",
+                  "children":[
+                     {
+                        "id":"9bb3ae195e43c7d0",
+                        "topic":"* Node_9bb3a *",
+                        "expanded":true,
+                        "background-color": "transparent"
+                     }
+                  ]
+               },
+               {
+                  "id":"9bb39ef0dd0a8354",
+                  "topic":"Misuse",
+                  "expanded":true,
+                  "background-color": "transparent",
+                  "children":[
+                     {
+                        "id":"9bb3ae93d87ed6f5",
+                        "topic":"* Node_9bb3a *",
+                        "expanded":true,
+                        "background-color": "transparent"
+                     }
+                  ]
+               },
+               {
+                  "id":"9bb39f20d46d25f9",
+                  "topic":"Keywords",
+                  "expanded":true,
+                  "background-color": "transparent",
+                  "children":[
+                     {
+                        "id":"9bb3aef752976931",
+                        "topic":"* Node_9bb3a *",
+                        "expanded":true,
+                        "background-color": "transparent"
+                     }
+                  ]
+               },
+               {
+                  "id":"9bb39f3dd322d7b8",
+                  "topic":"References",
+                  "expanded":true,
+                  "background-color": "transparent",
+                  "children":[
+                     {
+                        "id":"9bb3af51d28b7af1",
+                        "topic":"* Node_9bb3a *",
+                        "expanded":true,
+                        "background-color": "transparent"
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "id":"9bb37491dfdcdab2",
+            "topic":"Attribution",
+            "expanded":false,
+            "direction":"left",
+            "foreground-color": "white",
+            "background-color": "#999999",
+            "children":[
+               {
+                  "id":"9bb3b7edeee55149",
+                  "topic":"Archetype ID",
+                  "expanded":true,
+                  "background-color":"transparent",
+                  "children":[
+                     {
+                        "id":"9bb3b9df58c089a4",
+                        "topic":"openEHR-EHR-OBSERVATION.blood_pressure.v1 <br /> Original namespace: org.openehr <br /> Original publisher: openEHR Foundation<br /> Revision: 1.1.0 (published)   ",
+                        "expanded":true
+                     }
+                  ]
+               },
+               {
+                  "id":"9bb3b807e64d930d",
+                  "topic":"Other Identification",
+                  "expanded":true,
+                  "background-color":"transparent",
+                  "children":[
+                     {
+                        "id":"9bb3ba3b558fa9e5",
+                        "topic":"* Node_9bb3b *",
+                        "expanded":true
+                     }
+                  ]
+               },
+               {
+                  "id":"9bb3b81464f5698a",
+                  "topic":"Original Author",
+                  "expanded":true,
+                  "background-color":"transparent",
+                  "children":[
+                     {
+                        "id":"9bb3ba7de15c3329",
+                        "topic":"* Node_9bb3b *",
+                        "expanded":true
+                     }
+                  ]
+               },
+               {
+                  "id":"9bb3b823691315db",
+                  "topic":"Current Custodian",
+                  "expanded":true,
+                  "background-color":"transparent",
+                  "children":[
+                     {
+                        "id":"9bb3ba9d600cfcb7",
+                        "topic":"* Node_9bb3b *",
+                        "expanded":true
+                     }
+                  ]
+               },
+               {
+                  "id":"9bb3b8346f86a98d",
+                  "topic":"Other Contributors",
+                  "expanded":true,
+                  "background-color":"transparent",
+                  "children":[
+                     {
+                        "id":"9bb3babb68c92aec",
+                        "topic":"* Node_9bb3b *",
+                        "expanded":true
+                     }
+                  ]
+               },
+               {
+                  "id":"9bb3b843e599044d",
+                  "topic":"Translators",
+                  "expanded":true,
+                  "background-color":"transparent",
+                  "children":[
+                     {
+                        "id":"9bb3badd6f02420c",
+                        "topic":"* Node_9bb3b *",
+                        "expanded":true
+                     }
+                  ]
+               },
+               {
+                  "id":"9bb3b85262cf1cd9",
+                  "topic":"Licencing",
+                  "expanded":true,
+                  "background-color":"transparent",
+                  "children":[
+                     {
+                        "id":"9bb3bb9d6d8b7a4c",
+                        "topic":"* Node_9bb3b *",
+                        "expanded":true
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}
+        var options = {
+            container:'jsmind_container',
+            editable:true,
+            theme:'primary',
+            support_html: true,
+            layout : {
+               //hspace : 30 ,           // horizontal distance between nodes
+               vspace : 2,           // vertical spacing between nodes
+               //pspace : 20            // node contraction / expansion controller dimensions
+             },
+             view:{
+               hmargin:20,        // 思维导图距容器外框的最小水平距离
+               vmargin:20,
+               hspace: 3,
+               vspace: 5,       // 思维导图距容器外框的最小垂直距离
+               line_width:1,       // 思维导图线条的粗细
+               line_color:'#555'   // 思维导图线条的颜色
+              },
+        }
+        var jm = jsMind.show(options,mind);
+        // jm.set_readonly(true);
+        // var mind_data = jm.get_data();
+        // alert(mind_data);
+        // jm.set_node_color('9bb3996320d7821e', 'white', 'red');
+       // jm.set_node_border('9bb3996320d7821e','3px solid #C3C3C3','none')
+        //jm.set_node_border('9bb39a63d9d2aaa9','3px solid #C3C3C3','none')
+        //jm.set_node_border('9bb39a7e54bb7a89','3px solid #C3C3C3','none')
+        //jm.set_node_border('9bb39a9a5ab1ce40','3px solid #C3C3C3','none')
+        //jm.set_node_border('9bb39ab25d1908ad','3px solid #C3C3C3','none')
+        //jm.set_node_border('9bb3b2dcdc3ff2d7','3px solid #C3C3C3','none')
+        //jm.set_node_border('9bb3b350dd821dc8','3px solid #C3C3C3','none')
+        //jm.set_node_border('9bb3b368597848d0','3px solid #C3C3C3','none')
+        //jm.set_node_border('9bb3b37cdd23cebd','3px solid #C3C3C3','none')
+        //jm.set_node_border('9bb3b393743479fa','3px solid #C3C3C3','none')
+        //jm.set_node_border('9bb3b3fdd7af21df','3px solid #C3C3C3','none')
+        //jm.set_node_border('9bb3b4095354ba5f','3px solid #C3C3C3','none')
+
+
+
+    }
+
+    load_jsmind();
+</script>
+</body>
+</html>
