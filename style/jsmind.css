@@ -25,7 +25,7 @@ canvas{position:absolute;z-index:1;}
 
 /* z-index:2 */
 jmnodes{position:absolute;z-index:2;background-color:rgba(0,0,0,0);}/*background color is necessary*/
-jmnode{position:absolute;cursor:default;max-width:400px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+jmnode{position:absolute;cursor:default;max-width:300px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
 jmexpander{position:absolute;width:11px;height:11px;display:block;overflow:hidden;line-height:12px;font-size:12px;text-align:center;border-radius:6px;border-width:1px;border-style:solid;cursor:pointer;}
 
 /* default theme */
@@ -41,12 +41,12 @@ jmexpander:hover{border-color:#000;}
     jmnode.root{font-size:21px;}
 }
 /* primary theme */
-jmnodes.theme-primary jmnode{background-color:#428bca;color:black;border-color:#357ebd;}
-jmnodes.theme-primary jmnode:hover{background-color:#FFDD44}
-jmnodes.theme-primary jmnode.selected{background-color:transparent}
-jmnodes.theme-primary jmnode.root{background-color: white; color: black; border-radius: 50%;}
+jmnodes.theme-primary jmnode{background-color:#D3D3D3;color:black;border-color:#357ebd;font-size: smaller; border-radius: 15%; padding: 5px;}
+jmnodes.theme-primary jmnode:hover{}
+jmnodes.theme-primary jmnode.selected{border: 2px solid #A9A9A9; box-shadow: none;}
+jmnodes.theme-primary jmnode.root{background-color: #D3D3D3; color: black; border-radius: 50px;border-width: 1px;font-size: medium}
 jmnodes.theme-primary jmexpander{}
-jmnodes.theme-primary jmexpander:hover{}
+jmnodes.theme-primary jmexpander:hover{background-color: #A9A9A9;}
 
 /* warning theme */
 jmnodes.theme-warning jmnode{background-color:#f0ad4e;border-color:#eea236;color:#fff;}

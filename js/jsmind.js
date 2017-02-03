@@ -42,13 +42,13 @@
         view:{
             hmargin:100,
             vmargin:50,
-            line_width:2,
-            line_color:'#555'
+            line_width:50,
+            line_color:'#A9A9A9'
         },
         layout:{
             hspace:30,
-            vspace:20,
-            pspace:13
+            vspace:10,
+            pspace:15
         },
         default_event_handle:{
             enable_mousedown_handle:true,
